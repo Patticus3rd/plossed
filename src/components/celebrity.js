@@ -19,7 +19,7 @@ const Celebrity = () => {
     <div className="atoa-blurb">
       <div className="inner-blurb">
         <div className="content">
-          <h3>ATOA</h3>
+          <h3>CVIB</h3>
           <p>
             Responsive web design project fighting the stigma around mental
             health in the Polynesian community. Using Card Sorting, Tree Tests,
