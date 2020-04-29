@@ -26,16 +26,17 @@ const AtoaBlurb = () => {
             Click Tests, this app was created with users goals in mind. The app
             was made responsive in order to reach a wider audience.
           </p>
+          <div className="btn-row">
+            <Link to="/work">View Series</Link>
+          </div>
         </div>
-        <div className="btn-row">
-          <Link to="/work">View Series</Link>
-        </div>
-      </div>
-      <div className="images">
+        <div className="images">
         <div className="landing">
           <Img fluid={data.landing.childImageSharp.fluid} />
         </div>
       </div>
+      </div>
+      
     </div>
   )
 }
